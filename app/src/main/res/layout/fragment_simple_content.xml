@@ -3,14 +3,169 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
-	android:padding="@dimen/global_keyline_s"
-	android:orientation="vertical">
-	
+	android:orientation="vertical"
+	android:padding="@dimen/global_metric_24">
+
 	<TextView
-		android:id="@+id/fragment_simple_name"
-        android:text="Ahoj"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:textAppearance="@style/TextAppearance.Example.Body1" />
-	
+		android:text="Hello TextView"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Hello Button"/>
+
+	<RadioButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hello RadioButton"/>
+
+	<CheckBox
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hello CheckBox"/>
+
+	<Switch
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hello Switch"/>
+
+	<ToggleButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Hello ToggleButton"/>
+
+	<ImageButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+		android:scaleType="fitCenter"
+		android:src="@mipmap/ic_launcher"/>
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@mipmap/ic_launcher"/>
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<ProgressBar
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:progress="50"
+		style="?android:attr/progressBarStyleHorizontal"/>
+
+	<SeekBar
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:progress="50"/>
+
+	<RatingBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:progress="50"/>
+
+	<Spinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:prompt="@string/app_name"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text"
+		android:text="Hello EditText"/>
+
+	<SearchView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:queryHint="Hello SearchView"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="D4"
+		android:textAppearance="@style/TextAppearance.Example.Display4"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Display3"
+		android:textAppearance="@style/TextAppearance.Example.Display3"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Display2"
+		android:textAppearance="@style/TextAppearance.Example.Display2"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Display1"
+		android:textAppearance="@style/TextAppearance.Example.Display1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Headline"
+		android:textAppearance="@style/TextAppearance.Example.Headline"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Title"
+		android:textAppearance="@style/TextAppearance.Example.Title"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Title Inverse"
+		android:textAppearance="@style/TextAppearance.Example.Title.Inverse"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Subhead"
+		android:textAppearance="@style/TextAppearance.Example.Subhead"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Subhead Inverse"
+		android:textAppearance="@style/TextAppearance.Example.Subhead.Inverse"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Body2"
+		android:textAppearance="@style/TextAppearance.Example.Body2"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Body1"
+		android:textAppearance="@style/TextAppearance.Example.Body1"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Caption"
+		android:textAppearance="@style/TextAppearance.Example.Caption"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Button"
+		android:textAppearance="@style/TextAppearance.Example.Button"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Text Appearance Menu"
+		android:textAppearance="@style/TextAppearance.Example.Menu"/>
+
 </LinearLayout>

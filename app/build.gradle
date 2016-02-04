@@ -13,20 +13,20 @@ apply plugin: 'com.android.application'
 
 dependencies
         {
-            compile 'com.android.support:support-v4:21.0.+'
-            compile 'com.android.support:appcompat-v7:21.0.+'
-            compile 'com.google.android.gms:play-services:6.1.+'
+            compile 'com.android.support:support-v4:23.1.1'
+            compile 'com.android.support:appcompat-v7:23.1.1'
+            compile 'com.google.android.gms:play-services:8.4.0'
             compile fileTree(dir: 'libs', include: ['*.jar'])
         }
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.strv.cheers"
+        applicationId "cz.bartonmartin.empty"
         minSdkVersion 15
-        targetSdkVersion 21
+        targetSdkVersion 23
         versionCode VERSION_MAJOR * 10000000 + VERSION_MINOR * 100000 + VERSION_PATCH * 1000 + VERSION_BUILD
         versionName "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
     }
